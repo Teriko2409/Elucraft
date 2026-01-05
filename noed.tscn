@@ -23,6 +23,8 @@ shape = SubResource("RectangleShape2D_v7sqo")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 
+[node name="dash_timer" type="Timer" parent="Player"]
+
 [node name="ground" type="StaticBody2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="ground"]
@@ -33,3 +35,5 @@ texture = ExtResource("1_jafry")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ground"]
 position = Vector2(52, 170)
 shape = SubResource("RectangleShape2D_lr4a2")
+
+[connection signal="timeout" from="Player/dash_timer" to="Player" method="_on_dash_timer_timeout"]
