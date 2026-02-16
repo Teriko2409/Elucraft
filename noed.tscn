@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dkpagho5p1bl6"]
+[gd_scene load_steps=6 format=3 uid="uid://dkpagho5p1bl6"]
 
 [ext_resource type="Texture2D" uid="uid://01e833ylytcw" path="res://icon.svg" id="1_jafry"]
 [ext_resource type="Script" uid="uid://ck2uesw6fvll0" path="res://player.gd" id="1_v7sqo"]
+[ext_resource type="AudioStream" uid="uid://coh7d1uf1ykb6" path="res://jump.wav" id="3_2ixhm"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v7sqo"]
 size = Vector2(133, 133)
@@ -24,6 +25,9 @@ shape = SubResource("RectangleShape2D_v7sqo")
 [node name="Camera2D" type="Camera2D" parent="Player"]
 
 [node name="dash_timer" type="Timer" parent="Player"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Player"]
+stream = ExtResource("3_2ixhm")
 
 [node name="ground" type="StaticBody2D" parent="."]
 

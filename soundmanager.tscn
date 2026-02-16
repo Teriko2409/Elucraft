@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwa2m6o58l8to"]
+
+[ext_resource type="AudioStream" uid="uid://ctl3x85bei52v" path="res://Iframe Pragmata - Soundtrack _ Main Theme [Unofficial Main Menu Concept] [mFg5KrqV1VY].ogg" id="1_7bkxl"]
+
+[node name="soundmanager" type="Node"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_7bkxl")
+autoplay = true

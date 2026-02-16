@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ctl3x85bei52v"
+path="res://.godot/imported/Iframe Pragmata - Soundtrack _ Main Theme [Unofficial Main Menu Concept] [mFg5KrqV1VY].ogg-a5b1fc6d2fcff698df30508ca9595ef8.oggvorbisstr"
+
+[deps]
+
+source_file="res://Iframe Pragmata - Soundtrack _ Main Theme [Unofficial Main Menu Concept] [mFg5KrqV1VY].ogg"
+dest_files=["res://.godot/imported/Iframe Pragmata - Soundtrack _ Main Theme [Unofficial Main Menu Concept] [mFg5KrqV1VY].ogg-a5b1fc6d2fcff698df30508ca9595ef8.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
